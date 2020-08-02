@@ -8,6 +8,8 @@ import { PonentesComponent } from './ponentes/ponentes.component';
 const routes: Routes = [
   {path: 'principal', component: PrincipalComponent},
   {path: 'ponentes', component: PonentesComponent},
+  {path: 'categorias/cursos marketing', component: PrincipalComponent},
+  {path: 'ponentes', component: PonentesComponent},
   {path: '**', pathMatch: 'full', redirectTo:'principal'},
 ];
 

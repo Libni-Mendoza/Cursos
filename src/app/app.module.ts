@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { PonentesComponent } from './ponentes/ponentes.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CategoriasComponent } from './categorias/categorias.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AppRoutingModule } from './app-routing.module';
     PrincipalComponent,
     NavbarComponent,
     FooterComponent,
-    PonentesComponent
+    PonentesComponent,
+    CategoriasComponent
   ],
   imports: [
     BrowserModule,
