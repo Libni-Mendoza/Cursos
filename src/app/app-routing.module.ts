@@ -7,6 +7,7 @@ import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 import { FotografiaComponent } from './cat/fotografia/fotografia.component';
 import { MarketingComponent } from './cat/marketing/marketing.component';
 import { DisenoComponent } from './cat/diseno/diseno.component';
+import { AnimacionComponent } from './cat/animacion/animacion.component';
 
 const routes: Routes = [
   {path: 'principal', component: PrincipalComponent},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'cat/fotografia', component: FotografiaComponent},
   {path: 'cat/marketing', component: MarketingComponent},
   {path: 'cat/deseno', component: DisenoComponent},
+  {path: 'cat/animacion', component: AnimacionComponent},
 
   {path: '**', pathMatch: 'full', redirectTo:'principal'},
 ];
