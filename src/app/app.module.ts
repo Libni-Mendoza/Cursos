@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { CategoriasComponent } from './categorias/categorias.component';
 import { MarketingComponent } from './cat/marketing/marketing.component';
 import { FotografiaComponent } from './cat/fotografia/fotografia.component';
+import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FotografiaComponent } from './cat/fotografia/fotografia.component';
     PonentesComponent,
     CategoriasComponent,
     MarketingComponent,
-    FotografiaComponent
+    FotografiaComponent,
+    InicioSesionComponent
   ],
   imports: [
     BrowserModule,
