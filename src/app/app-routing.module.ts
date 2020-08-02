@@ -6,13 +6,15 @@ import { PonentesComponent } from './ponentes/ponentes.component';
 import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 import { FotografiaComponent } from './cat/fotografia/fotografia.component';
 import { MarketingComponent } from './cat/marketing/marketing.component';
+import { DisenoComponent } from './cat/diseno/diseno.component';
 
 const routes: Routes = [
   {path: 'principal', component: PrincipalComponent},
   {path: 'ponentes', component: PonentesComponent},
   {path: 'inicio-sesion', component: InicioSesionComponent},
   {path: 'cat/fotografia', component: FotografiaComponent},
-  {path: 'cat/marketing', component:MarketingComponent},
+  {path: 'cat/marketing', component: MarketingComponent},
+  {path: 'cat/deseno', component: DisenoComponent},
 
   {path: '**', pathMatch: 'full', redirectTo:'principal'},
 ];

@@ -12,6 +12,7 @@ import { CategoriasComponent } from './categorias/categorias.component';
 import { MarketingComponent } from './cat/marketing/marketing.component';
 import { FotografiaComponent } from './cat/fotografia/fotografia.component';
 import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
+import { DisenoComponent } from './cat/diseno/diseno.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
     CategoriasComponent,
     MarketingComponent,
     FotografiaComponent,
-    InicioSesionComponent
+    InicioSesionComponent,
+    DisenoComponent
   ],
   imports: [
     BrowserModule,
