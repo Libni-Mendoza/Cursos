@@ -14,6 +14,7 @@ import { FotografiaComponent } from './cat/fotografia/fotografia.component';
 import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 import { DisenoComponent } from './cat/diseno/diseno.component';
 import { AnimacionComponent } from './cat/animacion/animacion.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { AnimacionComponent } from './cat/animacion/animacion.component';
     FotografiaComponent,
     InicioSesionComponent,
     DisenoComponent,
-    AnimacionComponent
+    AnimacionComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
